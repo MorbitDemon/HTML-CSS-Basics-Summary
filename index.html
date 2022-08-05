@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon-basics.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- ^ Referrence to the css file-->
+    <title>HTML & CSS Basics Summary</title>
+  </head>
+  <body>
+    <!--Actual content of the page-->
+    <header>
+      <h1>HTML & CSS Basics Summary</h1>
+      <img src="/images/html-css.png" alt="HTML and CSS logos" />
+    </header>
+    <main>
+      <section>
+        <h2>HTML Summary</h2>
+        <p>
+          HTML (HyperText Markup Lenguague) is used to define our page content,
+          structure and meaning. You <strong> don't </strong> use it for styling
+          purpuses. Use CSS for that Instead!
+        </p>
+        <ul>
+          <!-- List of HTML summary-->
+          <li class="hightlight">
+            HTML uses "elements" to describe (annotate) content
+          </li>
+          <li>
+            HTML elements typically have an openong tag, content and them a
+            closing tag
+          </li>
+          <li class="hightlight">
+            You can also have void (empty) elements like images
+          </li>
+          <li class="hightlight">
+            You can also Configure elements with attributes
+          </li>
+          <li>
+            There's along lis of available elements but you'll gain experience
+            over time, no worries.
+          </li>
+        </ul>
+        <p>
+          Learn more about all available HTML elements on
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+            class="mdn-reference"
+          >
+            the MDN HTML element reference
+          </a>
+          .
+        </p>
+      </section>
+
+      <section>
+        <h2>CSS Summary</h2>
+        <p>
+
+
+          CSS (Cascading Style Sheets) is used for styling your page content
+        </p>
+        <ul>
+          <!-- List of CSS Summary-->
+          <li>Styles are assigned via property-value pairs</li>
+          <li>You can assign styles via the "style" attribute</li>
+          <li class="hightlight">
+            To avoid code duplication, you typically use global styles (e.g via
+            the "style" element) instead
+          </li>
+          <li>
+            Alternatively, you can work with external stylesheet file which you
+            "link" to
+          </li>
+          <li class="hightlight">
+            When working with CSS, conceps like "inheritance", "specify" and the
+            "box model" should be understood.
+          </li>
+        </ul>
+        <p>
+          Learn more about all available CSS properties and values on
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+            class="mdn-reference"
+          >
+            the MDN CSS property reference
+          </a>
+          .
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a
+        href="pdf/html-css-basics-summary.pdf"
+        target="_blank"
+        id="pdf-download"
+      >
+        <!-- The target attribute allows us to open that pdf file in a blank page and not in the current one-->
+        Download PDF Summary
+      </a>
+      <p id="academind">(c) Academind GmbH 🐸</p>
+    </footer>
+  </body>
+</html>

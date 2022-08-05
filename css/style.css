@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 50px;
+  color: blueviolet;
+}
+
+/* strong {
+  font-weight: bold;
+} */
+
+/* Here i use a combinator of "header img" because when i modify the width of the img height is changed automatically by the browser, instead of having to apply it manually */
+header img {
+  width: 300px;
+  margin-bottom: 60px;
+}
+
+/* img{
+      width: 330px;
+      height: 180px;
+      margin-bottom: 60px;
+  } */
+
+main {
+  text-align: left;
+  background-color: blueviolet;
+  color: white;
+  width: 700px;
+  margin: auto; /*When we apply a auto margin in a block element like this it will be centered.*/
+  padding: 30px;
+  border-radius: 10px;
+}
+
+li {
+  text-align: left;
+  list-style: none;
+  margin: 15px -39px;
+  padding-left: 18px;
+}
+
+a {
+  text-decoration: none;
+  background-color: white;
+  padding: 4px;
+  border-radius: 5px;
+  color: black;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+a:hover,
+a:active {
+  background-color: gold;
+}
+
+#pdf-download:active,
+#pdf-download:hover{
+  background-color: rgb(238, 180, 34);
+}
+
+#pdf-download {
+  display: inline-block;
+  background-color: gold;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+#academind {
+  color: grey;
+}
+
+.hightlight {
+  border-left: 4px solid gold;
+  padding-left: 14px;
+}
