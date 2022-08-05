@@ -19,7 +19,7 @@ This is the fisty page i made by my own using HTML and CSS, froma  course im tak
 
 ### Links
 
-- Live Site URL: [)
+- Live Site URL: [https://morbitdemon.github.io/HTML-CSS-Basics-Summary/]
 
 ## My process
 
