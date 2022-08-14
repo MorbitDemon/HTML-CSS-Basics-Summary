@@ -33,4 +33,4 @@ This is the fisty page i made by my own using HTML and CSS, froma  course im tak
 
 ## Author
 
- [@MorbitDemon](https://www.frontendmentor.io/profile/MorbitDemon)
+ [@MorbitDemon](https://github.com/MorbitDemon)
