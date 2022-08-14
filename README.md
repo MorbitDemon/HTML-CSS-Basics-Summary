@@ -1,6 +1,6 @@
 # HTML & CSS Basics Summary
 
-This is the fisty page i made by my own using HTML and CSS, froma  course im taking in udemy. 
+This is the fist page i made by my own using HTML and CSS, from a course im taking in udemy. 
 
 ## Table of contents
 
